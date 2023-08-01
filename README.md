@@ -17,6 +17,7 @@
 
 ## 5.打开服务器并下载rawdata  
 按顺序输入：  
+
     conda activate rnaseq
     cd aflie
     nohup aria2c -c -i linklist.txt &
