@@ -21,4 +21,9 @@
     conda activate rnaseq
     cd aflie
     nohup aria2c -c -i linklist.txt &
+    mkdir bam rawcounts  
 
+下载完毕后，写入filenames，一般来说，我是根据“_1.clean.fq.gz”这段字符命名的，比如：cfa3_1.clean.fq.gz，那么我就取cfa3作为该名字。  
+另外，“_1.clean.fq.gz”和 “_2.clean.fq.gz”，这两个文件是双端测序，测的是同一个样本。  
+
+    ls *1.clean* |cut -d "_" -f 1 > filenames
