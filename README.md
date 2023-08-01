@@ -2,7 +2,7 @@
 
 ## 1.进入邮箱  
 点击“点击进入”  
-![1.png](https://github.com/y741269430/Download-rawdata/blob/main/1.png)  
+<img src="https://github.com/y741269430/Download-rawdata/blob/main/images/1.png" width="200" />
 
 ## 2.进入邮箱   
 点击“获取链接”  
