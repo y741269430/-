@@ -27,3 +27,9 @@
 另外，“_1.clean.fq.gz”和 “_2.clean.fq.gz”，这两个文件是双端测序，测的是同一个样本。  
 
     ls *1.clean* |cut -d "_" -f 1 > filenames
+
+把code里面的文件下载下来，拖进去afile，然后开始  
+
+    bash rna1  
+
+用top命令，查看是否运行完毕，运行完再bash下一个命令rna2，以此类推。   
