@@ -30,6 +30,6 @@
 
 把code里面的文件下载下来，拖进去afile，然后开始  
 
-    bash rna1  
+    bash rna1_hisat2.sh  
 
 用top命令，查看是否运行完毕，运行完再bash下一个命令rna2，以此类推。   
